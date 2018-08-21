@@ -1,0 +1,9 @@
+C:\Users\Juan Cruz\Desktop\TrabajoCampo\DAL\bin\Debug\DAL.dll
+C:\Users\Juan Cruz\Desktop\TrabajoCampo\DAL\bin\Debug\DAL.pdb
+C:\Users\Juan Cruz\Desktop\TrabajoCampo\DAL\bin\Debug\BE.dll
+C:\Users\Juan Cruz\Desktop\TrabajoCampo\DAL\bin\Debug\Servicios.dll
+C:\Users\Juan Cruz\Desktop\TrabajoCampo\DAL\bin\Debug\BE.pdb
+C:\Users\Juan Cruz\Desktop\TrabajoCampo\DAL\bin\Debug\Servicios.pdb
+C:\Users\Juan Cruz\Desktop\TrabajoCampo\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+C:\Users\Juan Cruz\Desktop\TrabajoCampo\DAL\obj\Debug\DAL.dll
+C:\Users\Juan Cruz\Desktop\TrabajoCampo\DAL\obj\Debug\DAL.pdb

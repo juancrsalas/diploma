@@ -1,0 +1,7 @@
+C:\Users\Juan Cruz\Desktop\TrabajoCampo\Servicios\bin\Debug\Servicios.dll
+C:\Users\Juan Cruz\Desktop\TrabajoCampo\Servicios\bin\Debug\Servicios.pdb
+C:\Users\Juan Cruz\Desktop\TrabajoCampo\Servicios\bin\Debug\BE.dll
+C:\Users\Juan Cruz\Desktop\TrabajoCampo\Servicios\bin\Debug\BE.pdb
+C:\Users\Juan Cruz\Desktop\TrabajoCampo\Servicios\obj\Debug\Servicios.csprojResolveAssemblyReference.cache
+C:\Users\Juan Cruz\Desktop\TrabajoCampo\Servicios\obj\Debug\Servicios.dll
+C:\Users\Juan Cruz\Desktop\TrabajoCampo\Servicios\obj\Debug\Servicios.pdb

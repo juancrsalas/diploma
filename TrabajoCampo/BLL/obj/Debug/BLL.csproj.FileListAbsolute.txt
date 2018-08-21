@@ -1,0 +1,11 @@
+C:\Users\Juan Cruz\Desktop\TrabajoCampo\BLL\bin\Debug\BLL.dll
+C:\Users\Juan Cruz\Desktop\TrabajoCampo\BLL\bin\Debug\BLL.pdb
+C:\Users\Juan Cruz\Desktop\TrabajoCampo\BLL\bin\Debug\BE.dll
+C:\Users\Juan Cruz\Desktop\TrabajoCampo\BLL\bin\Debug\DAL.dll
+C:\Users\Juan Cruz\Desktop\TrabajoCampo\BLL\bin\Debug\Servicios.dll
+C:\Users\Juan Cruz\Desktop\TrabajoCampo\BLL\bin\Debug\BE.pdb
+C:\Users\Juan Cruz\Desktop\TrabajoCampo\BLL\bin\Debug\DAL.pdb
+C:\Users\Juan Cruz\Desktop\TrabajoCampo\BLL\bin\Debug\Servicios.pdb
+C:\Users\Juan Cruz\Desktop\TrabajoCampo\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+C:\Users\Juan Cruz\Desktop\TrabajoCampo\BLL\obj\Debug\BLL.dll
+C:\Users\Juan Cruz\Desktop\TrabajoCampo\BLL\obj\Debug\BLL.pdb

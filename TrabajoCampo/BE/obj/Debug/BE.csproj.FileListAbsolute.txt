@@ -1,0 +1,5 @@
+C:\Users\Juan Cruz\Desktop\TrabajoCampo\BE\bin\Debug\BE.dll
+C:\Users\Juan Cruz\Desktop\TrabajoCampo\BE\bin\Debug\BE.pdb
+C:\Users\Juan Cruz\Desktop\TrabajoCampo\BE\obj\Debug\BE.csprojResolveAssemblyReference.cache
+C:\Users\Juan Cruz\Desktop\TrabajoCampo\BE\obj\Debug\BE.dll
+C:\Users\Juan Cruz\Desktop\TrabajoCampo\BE\obj\Debug\BE.pdb
