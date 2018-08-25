@@ -15,7 +15,6 @@ namespace GUI
         BLL.Usuario gestorUsuario = new BLL.Usuario();
         BLL.DigitoVerificador gestorDigito = new BLL.DigitoVerificador();
         BLL.Bitacora gestorBitacora = new BLL.Bitacora();
-
         public Form1()
         {
             InitializeComponent();
@@ -48,6 +47,7 @@ namespace GUI
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            
             try
             {
                 gestorDigito.VerificarDigito();

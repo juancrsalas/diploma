@@ -16,6 +16,7 @@ namespace GUI
         BLL.DigitoVerificador gestorDigito = new BLL.DigitoVerificador();
         BLL.Usuario gestorUsuario = new BLL.Usuario();
         BLL.Bitacora gestorBitacora = new BLL.Bitacora();
+        BLL.Componente gestorComponente = new BLL.Componente();
 
         public Menu(Form principal)
         {
@@ -26,6 +27,10 @@ namespace GUI
 
         private void Menu_Load(object sender, EventArgs e)
         {
+            listBox1.DataSource = gestorComponente.traerFamilias();
+            listBox1.DisplayMember = "Descripcion";
+            listBox2.DataSource = gestorComponente.traerPatentes();
+            listBox2.DisplayMember = "Descripcion";
 
         }
 
@@ -50,6 +55,47 @@ namespace GUI
         private void Menu_FormClosed(object sender, FormClosedEventArgs e)
         {
 
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            if (listBox1.SelectedIndex > -1)
+            {
+                BE.Familia fam= (BE.Familia)listBox1.SelectedItem;
+                foreach (BE.Componente comp in fam.Permisos)
+                {
+                    if (!Servicios.Sesion.Instancia.usuario.Permisos.ContainsKey(comp.Codigo))
+                    {
+                        Servicios.Sesion.Instancia.usuario.Permisos.Add(comp.Codigo, comp);
+                        gestorUsuario.AgregarPermiso(comp);
+                    }
+                    
+                }
+            }
+            else if (listBox2.SelectedIndex >-1)
+            {
+                if (!Servicios.Sesion.Instancia.usuario.Permisos.ContainsKey(((BE.Componente)listBox2.SelectedItem).Codigo))
+                {
+                    Servicios.Sesion.Instancia.usuario.Permisos.Add(((BE.Componente)listBox2.SelectedItem).Codigo, (BE.Componente)listBox2.SelectedItem);
+                    gestorUsuario.AgregarPermiso((BE.Componente)listBox2.SelectedItem);
+                }    
+            }
+        }
+
+        private void listBox2_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (listBox2.SelectedIndex > -1)
+            {
+                listBox1.SelectedIndex = -1;
+            }
+        }
+
+        private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (listBox1.SelectedIndex > -1)
+            {
+                listBox2.SelectedIndex = -1;
+            }
         }
     }
 }
