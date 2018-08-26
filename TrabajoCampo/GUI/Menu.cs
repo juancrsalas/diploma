@@ -27,11 +27,6 @@ namespace GUI
 
         private void Menu_Load(object sender, EventArgs e)
         {
-            listBox1.DataSource = gestorComponente.traerFamilias();
-            listBox1.DisplayMember = "Descripcion";
-            listBox2.DataSource = gestorComponente.traerPatentes();
-            listBox2.DisplayMember = "Descripcion";
-
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -57,45 +52,18 @@ namespace GUI
 
         }
 
-        private void button3_Click(object sender, EventArgs e)
+        private void button7_Click(object sender, EventArgs e)
         {
-            if (listBox1.SelectedIndex > -1)
-            {
-                BE.Familia fam= (BE.Familia)listBox1.SelectedItem;
-                foreach (BE.Componente comp in fam.Permisos)
-                {
-                    if (!Servicios.Sesion.Instancia.usuario.Permisos.ContainsKey(comp.Codigo))
-                    {
-                        Servicios.Sesion.Instancia.usuario.Permisos.Add(comp.Codigo, comp);
-                        gestorUsuario.AgregarPermiso(comp);
-                    }
-                    
-                }
-            }
-            else if (listBox2.SelectedIndex >-1)
-            {
-                if (!Servicios.Sesion.Instancia.usuario.Permisos.ContainsKey(((BE.Componente)listBox2.SelectedItem).Codigo))
-                {
-                    Servicios.Sesion.Instancia.usuario.Permisos.Add(((BE.Componente)listBox2.SelectedItem).Codigo, (BE.Componente)listBox2.SelectedItem);
-                    gestorUsuario.AgregarPermiso((BE.Componente)listBox2.SelectedItem);
-                }    
-            }
+            this.Hide();
+            GUI.Gerencia ger = new GUI.Gerencia(this);
+            ger.Show();
         }
 
-        private void listBox2_SelectedIndexChanged(object sender, EventArgs e)
+        private void button8_Click(object sender, EventArgs e)
         {
-            if (listBox2.SelectedIndex > -1)
-            {
-                listBox1.SelectedIndex = -1;
-            }
-        }
-
-        private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
-        {
-            if (listBox1.SelectedIndex > -1)
-            {
-                listBox2.SelectedIndex = -1;
-            }
+            this.Hide();
+            GUI.ServicesGUI serv = new GUI.ServicesGUI(this);
+            serv.Show();
         }
     }
 }

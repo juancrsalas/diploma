@@ -9,13 +9,17 @@ namespace BLL
     public class Usuario
     {
         DAL.MapperUsuario mapper = new DAL.MapperUsuario();
-        public void AgregarPermiso(BE.Componente permiso)
+        public void AgregarPermiso(BE.Usuario usu, BE.Componente permiso)
         {
-            mapper.AgregarPermiso(Servicios.Sesion.Instancia.usuario.Id, permiso);
+            mapper.AgregarPermiso(usu, permiso);
         }
         public BE.Usuario TraerUsuario(string email)
         {
             return mapper.TraerUsuario(email);
+        }
+        public List<BE.Usuario> ListarUsuarios()
+        {
+            return mapper.ListarUsuarios();
         }
         public int AltaUsuario(string email, string pass)
         {

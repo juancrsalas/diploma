@@ -41,6 +41,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Bitacora.cs" />
+    <Compile Include="Diccionario.cs" />
     <Compile Include="DigitoException.cs" />
     <Compile Include="DigitoResult.cs" />
     <Compile Include="Encriptador.cs" />

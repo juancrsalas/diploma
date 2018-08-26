@@ -16,3 +16,6 @@ C:\Users\Juan Cruz\Desktop\TrabajoCampo\GUI\obj\Debug\GUI.csproj.GenerateResourc
 C:\Users\Juan Cruz\Desktop\TrabajoCampo\GUI\obj\Debug\GUI.exe
 C:\Users\Juan Cruz\Desktop\TrabajoCampo\GUI\obj\Debug\GUI.pdb
 C:\Users\Juan Cruz\Desktop\TrabajoCampo\GUI\obj\Debug\GUI.Menu.resources
+C:\Users\Juan Cruz\Desktop\TrabajoCampo\GUI\obj\Debug\GUI.Gerencia.resources
+C:\Users\Juan Cruz\Desktop\TrabajoCampo\GUI\obj\Debug\GUI.AsignacionPermisosGUI.resources
+C:\Users\Juan Cruz\Desktop\TrabajoCampo\GUI\obj\Debug\GUI.ServicesGUI.resources
