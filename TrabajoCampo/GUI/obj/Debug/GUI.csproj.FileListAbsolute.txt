@@ -19,3 +19,4 @@ C:\Users\Juan Cruz\Desktop\TrabajoCampo\GUI\obj\Debug\GUI.Menu.resources
 C:\Users\Juan Cruz\Desktop\TrabajoCampo\GUI\obj\Debug\GUI.Gerencia.resources
 C:\Users\Juan Cruz\Desktop\TrabajoCampo\GUI\obj\Debug\GUI.AsignacionPermisosGUI.resources
 C:\Users\Juan Cruz\Desktop\TrabajoCampo\GUI\obj\Debug\GUI.ServicesGUI.resources
+C:\Users\Juan Cruz\Desktop\TrabajoCampo\GUI\obj\Debug\GUI.AltaIdioma.resources

@@ -43,6 +43,7 @@
     <Compile Include="Bitacora.cs" />
     <Compile Include="Componente.cs" />
     <Compile Include="DigitoVerificador.cs" />
+    <Compile Include="Traductor.cs" />
     <Compile Include="Usuario.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

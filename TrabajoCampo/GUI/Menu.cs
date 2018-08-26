@@ -21,7 +21,6 @@ namespace GUI
         public Menu(Form principal)
         {
             InitializeComponent();
-            label2.Text = Servicios.Sesion.Instancia.usuario.Email;
             prin = principal;
         }
 
@@ -29,14 +28,10 @@ namespace GUI
         {
         }
 
-        private void button1_Click(object sender, EventArgs e)
-        {
-            this.Close();
-        }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            gestorUsuario.AltaUsuario(textBox1.Text, textBox2.Text);
+            //gestorUsuario.AltaUsuario(textBox1.Text, textBox2.Text);
         }
 
         private void Menu_FormClosing(object sender, FormClosingEventArgs e)

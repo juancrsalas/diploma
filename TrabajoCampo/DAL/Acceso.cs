@@ -55,6 +55,7 @@ namespace DAL
             {
                 fa = -1;
             }
+            cmd.Parameters.Clear();
             return fa;
         }
 

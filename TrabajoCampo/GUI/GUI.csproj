@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AltaIdioma.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AltaIdioma.Designer.cs">
+      <DependentUpon>AltaIdioma.cs</DependentUpon>
+    </Compile>
     <Compile Include="AsignacionPermisosGUI.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -84,6 +90,9 @@
     <Compile Include="Taller.Designer.cs">
       <DependentUpon>Taller.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="AltaIdioma.resx">
+      <DependentUpon>AltaIdioma.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="AsignacionPermisosGUI.resx">
       <DependentUpon>AsignacionPermisosGUI.cs</DependentUpon>
     </EmbeddedResource>

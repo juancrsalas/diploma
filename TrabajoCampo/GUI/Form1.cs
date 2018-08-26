@@ -15,6 +15,7 @@ namespace GUI
         BLL.Usuario gestorUsuario = new BLL.Usuario();
         BLL.DigitoVerificador gestorDigito = new BLL.DigitoVerificador();
         BLL.Bitacora gestorBitacora = new BLL.Bitacora();
+        BLL.Traductor traductor = new BLL.Traductor();
         public Form1()
         {
             InitializeComponent();
@@ -47,10 +48,17 @@ namespace GUI
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            
             try
             {
                 gestorDigito.VerificarDigito();
+                traductor.CambiarIdioma(1);
+                string trad = "";
+                Servicios.Diccionario.Instancia.diccionario.TryGetValue("P1LBL1", out trad);
+                label1.Text = trad;
+                Servicios.Diccionario.Instancia.diccionario.TryGetValue("P1LBL2", out trad);
+                label2.Text = trad;
+                Servicios.Diccionario.Instancia.diccionario.TryGetValue("P1B1", out trad);
+                button1.Text = trad;
             }
             catch (Servicios.DigitoException ex)
             {
